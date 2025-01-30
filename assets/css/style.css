@@ -385,7 +385,7 @@ p {
     background-size: cover;
     padding: 90px 0;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position:center;
     overflow: hidden;
 }
 
