@@ -467,7 +467,7 @@ p {
     left: 0;
     width: 100%;
     z-index: 99;
-    height: 150px;
+    height: 110px;
 }
 
 .rac_header_wrapper.fixed {
@@ -2087,8 +2087,9 @@ p {
 }
 
 .rac_logo img {
-    height: 130px;
-    width: 190px;
+    height: 100px;
+    width: 120px;
+  
 }
 
 .menu-section {
