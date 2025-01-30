@@ -1828,6 +1828,7 @@ p {
 
 .rac_menu_banner {
     background-image: url(../images/menu_banner.webp);
+    background-size: cover;
 }
 
 /*-------------------------------------------------------------------
@@ -1836,6 +1837,7 @@ p {
 
 .rac_event_banner {
     background-image: url(../images/event_banner.webp);
+    background-size: cover;
 }
 
 /********************************************************
