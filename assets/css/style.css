@@ -2653,12 +2653,19 @@ p {
 
 .heading h4 {
     font-size: 30px;
+   color: white;
+   padding-left: 40px;
 }
 
 @media (max-width: 480px) {
     .heading h4 {
         font-size: 15px;
-        font-weight: 600;
+        font-weight: 750;
+        color: white;
+     
     }
 }
 
+.banner1 span{
+    color: rgb(12, 241, 62) !important;
+}
