@@ -2669,3 +2669,45 @@ p {
 .banner1 span{
     color: rgb(12, 241, 62) !important;
 }
+
+.rac_banner_wrapper .container-fluid .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rac_banner_wrapper .rac_banner_content {
+    padding: 20px;
+}
+
+
+@media (min-width: 576px) {
+    .rac_banner_wrapper .container-fluid .row .col-lg-6 {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .rac_banner_wrapper .container-fluid .row {
+        flex-direction: row; 
+    }
+
+    .rac_banner_wrapper .container-fluid .row .col-lg-6 {
+        width: 50%; 
+        font-size: 0.8rem; 
+        padding: 10px; 
+    }
+
+    .rac_btn {
+        font-size: 0.9rem; 
+    }
+
+    .rac_banner_text h1 {
+        font-size: 0.7rem; 
+    }
+
+    .rac_banner_text p {
+        font-size: 0.5rem; 
+    }
+}
+
