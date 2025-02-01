@@ -2704,7 +2704,7 @@ p {
       
       .nati-style {
         font-size: 30px;
-        font-weight: 800;
+        font-weight: 900;
         color: rgb(14, 214, 14);
         flex: 1;
         text-align: center;
@@ -2722,9 +2722,8 @@ p {
 
       .border {
         height: 60px;
-        color: black !important;
         z-index: 2;
-      }
-    
-    
+        border-width: 5px; 
+        border-style:  solid !important; 
+      }   
 }
