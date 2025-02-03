@@ -2612,8 +2612,8 @@ p {
     }
 
     .border-divider {
-        width: 80%;
-        height: 2px;
+        width: 90%;
+        height: 5px;
         margin: 20px auto;
     }
 }
@@ -2648,21 +2648,27 @@ p {
     font-weight: 900;
 }
 
+.heading h4{
+    text-align: center !important;
+    color: #ffffff;
+    font-size: 24px;
+}
 
 .order-section {
-    background: transparent; 
-    padding: 60px 20px;
+    background: transparent;
+    padding: 50px 20px;
     text-align: center;
 }
 
+
 .order-heading h4 {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
-    color: #ff6347; 
+    color: #ff6347;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
+
 
 .order-content {
     display: flex;
@@ -2671,37 +2677,64 @@ p {
     gap: 30px;
 }
 
+
 .order-box {
     background: rgba(255, 255, 255, 0.1); 
     padding: 30px;
     border-radius: 15px;
-    border: 2px solid rgba(255, 255, 255, 0.3); 
-    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px); 
+    border: 2px solid rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px); 
     width: 100%;
-    max-width: 350px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    position: relative;
 }
 
-.order-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 15px 30px rgba(255, 255, 255, 0.4);
+
+.order-icon {
+    background: rgba(255, 255, 255, 0.2);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
 }
+
+
+.order-icon i {
+    font-size: 28px;
+    color: #ff6600;
+}
+
 
 .order-box h3 {
-    font-size: 24px;
-    color: #ff6347; 
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: 22px;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
+
 .order-box p {
     font-size: 18px;
-    color: #f5f5f5; 
-    font-weight: bold;
+    color: #ffffff;
 }
 
+.order-box p span {
+    font-size: 20px;
+    color: #ff6600;
+}
+
+
+.order-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive */
 @media screen and (max-width: 768px) {
     .order-content {
         flex-direction: column;
@@ -2710,6 +2743,5 @@ p {
 
     .order-box {
         width: 90%;
-        max-width: 100%;
     }
 }
