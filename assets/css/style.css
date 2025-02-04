@@ -2593,10 +2593,10 @@ p {
     }
   }
 
-.border-divider {
-    background: #ccc;
-}
 
+.border-divider {
+    background: transparent;
+}
 
 @media (min-width: 769px) {
     .row.align-items-center {
@@ -2612,9 +2612,9 @@ p {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+        border-left: 1px solid #ccc; 
     }
 }
-
 
 @media (max-width: 768px) {
     .row.align-items-center {
@@ -2626,8 +2626,11 @@ p {
         width: 90%;
         height: 5px;
         margin: 20px auto;
+        border-left: none;
+        border-top: 1px solid #ccc; 
     }
 }
+
 
 .rac_banner_text h3{
     text-align: center;
