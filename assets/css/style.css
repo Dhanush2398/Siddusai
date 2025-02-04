@@ -2089,11 +2089,22 @@ p {
 }
 
 .rac_logo img {
-    height: 100px;
+    height: 110px;
     width: 120px;
     padding-bottom: 10px;
   
 }
+
+
+@media (max-width: 480px) {
+  
+.rac_logo img {
+    height: 90px;
+    width: 160px;
+    padding-bottom: 10px;
+  
+}
+  }
 
 .menu-section {
     padding: 20px;
